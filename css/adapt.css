@@ -1,0 +1,95 @@
+@media (min-width: 720px) and (max-width: 1140px) {
+	.wrapper {
+		width: 720px;
+	}
+	.title, .benefits_title {
+		font-size: 36px;
+	}
+	.benefits_logo {
+		width: 192px;
+		height: 40px;
+	}
+	.benefits_left .benefitsItem:nth-child(1) {
+		left: 0;
+	}
+	.benefits_left .benefitsItem:nth-child(2) {
+		left: 0px;
+	}
+	.benefits_left .benefitsItem:nth-child(3) {
+		left: 0px;
+	}
+ 	.benefits_right .benefitsItem:nth-child(1) {
+		right: 0px;
+	}
+	.benefits_right .benefitsItem:nth-child(2) {
+		right: 0px;
+	}
+	.benefits_right .benefitsItem:nth-child(3) {
+		right: 0px;
+	}
+	.start_btn {
+		bottom: 20%;
+	}
+	.chooseitem {
+		width: 270px;
+		margin-bottom: 20px;
+	}
+	.chooseitem br {
+		display: none;
+	}
+	.choose_blocktext {
+		top: 800px;
+	}
+	.tandemimg {
+		width: 360px;
+		height: 322px;
+		margin-top: 105px;
+
+	}
+	.where_text {
+		width: 240px;
+		line-height: 20px;
+		vertical-align: middle;
+		/*margin-left:70px;*/
+	}
+	.where_text:before {
+		display: none;
+	}
+	.moreright, .more_left {
+		width: 360px;
+		padding-left: 20px;
+	}
+	.moretextsecond {
+		display: none;
+	}
+	.fyoutube {
+		display: block;
+		float: none;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 30px;
+		text-align: center;
+	}
+	.fmenu_item {
+		width: 150px;	
+		margin-right: 0;
+		display: table-cell;
+		text-align: center;
+	}
+	ul .fmenu_nav{
+		display: table;
+		width: 100%;	
+	}
+	.copyright {
+		margin-top: 40px;
+	}
+/*	.encyclist {
+		height: 2120px
+	}*/
+	.encyc_item {
+		width: calc(50% - 30px);
+	}
+	
+
+
+}
